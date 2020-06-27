@@ -5,7 +5,7 @@ join _countries  on
  join _regions on
    _cities.region_id =_regions.id;
    
-//№1.2
+// №1.2
  SELECT * FROM _cities
 join _countries  on
  _cities.country_id =_countries.id
